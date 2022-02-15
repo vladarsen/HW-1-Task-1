@@ -12,8 +12,6 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100) - 40;
         }
-        System.out.println(Arrays.toString(array));
         System.out.println(Arrays.toString(square(array)));
-
     }
 }
