@@ -16,12 +16,4 @@ public class Main {
         System.out.println(Arrays.toString(square(array)));
 
     }
-
-    public static int[] square(int[] array) {
-        int[] arrayOne = new int[array.length];
-        for (int i = 0; i < array.length; i++) {
-            arrayOne[i] = (int) Math.pow(array[i], 2);
-        }
-        return arrayOne;
-    }
 }
